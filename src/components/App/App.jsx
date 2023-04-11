@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 
 import { FeedbackContainer } from 'components/App/App.styled';
 import { Section } from 'components/Section/Section';
@@ -66,9 +65,3 @@ export default class App extends Component {
     );
   }
 }
-
-App.propTypes = {
-  good: PropTypes.number,
-  neutral: PropTypes.number,
-  bad: PropTypes.number,
-};
